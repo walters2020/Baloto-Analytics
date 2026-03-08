@@ -19,15 +19,20 @@ Este repositorio contiene scripts en Python para automatizar la descarga, análi
 pip install pandas requests beautifulsoup4 openpyxl numpy
 ```
 
-## Dashboard de Looker Studio
+## Dashboard de Analítica
+El dashboard interactivo está disponible en Looker Studio:
+[**Baloto Analytics Dashboard**](https://lookerstudio.google.com/reporting/8e0cffb3-2c09-4113-991d-c7be561e4b33)
 
-Puedes ver el Dashboard interactivo con los resultados y el análisis estadístico en el siguiente enlace:
-[**Baloto Analytics Dashboard**](https://lookerstudio.google.com/reporting/8e0cffb3-2c09-4113-991d-c7be561e4b33/page/Q3VrF/edit)
+### Estructura del Dashboard:
+1. **Histórico de Resultados:** Tabla detallada con todos los sorteos descargados.
+2. **Estadísticas y Predicciones:** Gráficos de barra de números calientes (Hot Numbers) y análisis de patrones.
 
-### Cómo cargar los datos al Dashboard:
-1. Abre el enlace del Dashboard arriba.
-2. Haz clic en "**Añadir datos**" o usa el conector de "**Subida de archivos**" ya configurado.
-3. Sube los archivos CSV ubicados en tu carpeta local: `c:\Users\walte\Desktop\Baloto\csv_data`.
+---
+## Desarrollo y Automatización
+- `getdata.py`: Descarga y limpia los resultados.
+- `Predict.py`: Genera análisis estadístico avanzado.
+- `export_csv.py`: Prepara los datos para Looker Studio.
+- Datos sincronizados vía GitHub RAW para actualización automática.
 
 ---
 *Automatizado con Antigravity AI*
