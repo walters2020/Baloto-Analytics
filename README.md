@@ -22,7 +22,12 @@ pip install pandas requests beautifulsoup4 openpyxl numpy
 ## Dashboard de Looker Studio
 
 Puedes ver el Dashboard interactivo con los resultados y el análisis estadístico en el siguiente enlace:
-[Enlace al Dashboard] (Pendiente de publicación)
+[**Baloto Analytics Dashboard**](https://lookerstudio.google.com/reporting/8e0cffb3-2c09-4113-991d-c7be561e4b33/page/Q3VrF/edit)
+
+### Cómo cargar los datos al Dashboard:
+1. Abre el enlace del Dashboard arriba.
+2. Haz clic en "**Añadir datos**" o usa el conector de "**Subida de archivos**" ya configurado.
+3. Sube los archivos CSV ubicados en tu carpeta local: `c:\Users\walte\Desktop\Baloto\csv_data`.
 
 ---
 *Automatizado con Antigravity AI*
